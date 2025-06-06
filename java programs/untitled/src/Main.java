@@ -9,10 +9,10 @@ public class Main {
     public static final int k = 9;
 
     public static void main(String[] args) {
-        FindTheDuplicateNumber sol = new FindTheDuplicateNumber();
+        SplitArrayLargestSum sol = new SplitArrayLargestSum();
         System.out.println(
-                sol.findDuplicate(
-                        new int[]{3,3,3,3,3})
+                sol.splitArray(
+                        new int[]{1,2,3,4,5}, 2)
         );
     }
 
