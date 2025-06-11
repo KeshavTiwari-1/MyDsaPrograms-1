@@ -1,3 +1,4 @@
+import Trie.ReplaceWords;
 import binarysearch.*;
 import heap.*;
 
@@ -9,10 +10,10 @@ public class Main {
     public static final int k = 9;
 
     public static void main(String[] args) {
-        FindTheDuplicateNumber sol = new FindTheDuplicateNumber();
+        ReplaceWords sol = new ReplaceWords();
         System.out.println(
-                sol.findDuplicate(
-                        new int[]{3,3,3,3,3})
+                sol.replaceWords(
+                        Arrays.asList("aa","b","c"), "aadsfasf absbs bbab cadsfafs")
         );
     }
 
